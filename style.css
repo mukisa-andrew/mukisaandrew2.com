@@ -1,0 +1,774 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+.nany {
+    width: 100%;
+    overflow: hidden;
+}
+
+.log {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+    padding: 25px 6%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Shop title */
+
+.shop {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sun {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.par {
+    color: #dbeafe;
+    font-size: 16px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.search input {
+    width: 100%;
+    padding: 14px 18px;
+    border: none;
+    outline: none;
+    border-radius: 30px 0 0 30px;
+    font-size: 16px;
+    background: white;
+}
+
+.search button {
+    padding: 14px 28px;
+    border: none;
+    background: #f59e0b;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background: #d97706;
+}
+
+.home {
+    margin-top: 25px;
+}
+
+.home ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.home a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home a:hover {
+    background: #f59e0b;
+    transform: translateY(-2px);
+}
+
+
+.choice,
+.rate,
+.content,
+.Electionics,
+.Nintendo {
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.choice {
+    background: white;
+    margin: 25px auto;
+    max-width: 1100px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.pt {
+    margin: 8px 0;
+    color: #475569;
+}
+
+.rate h4,
+.Electionics h4 {
+    font-size: 28px;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+}
+
+.rate p,
+.Electionics p,
+.Nintendo p {
+    color: #64748b;
+}
+
+.content h5 {
+    font-size: 26px;
+    color: #1e3a8a;
+}
+
+
+.homy,
+.dressing,
+section[Electronics1],
+.commodity {
+    width: 92%;
+    max-width: 1400px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6,
+.product7,
+.product8,
+.product9,
+.product10,
+.product11,
+.product12,
+.product13,
+.product14,
+.product15,
+.product16,
+.product17,
+.product18,
+.product19,
+.product20,
+.product21,
+.product22,
+.product23,
+.product24,
+.product25,
+.Laptop,
+.product26,
+.product27,
+.product28,
+.product29,
+.product30,
+.product31 {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+    border: 1px solid #e5e7eb;
+}
+
+/* Card hover */
+
+.product1:hover,
+.product2:hover,
+.product3:hover,
+.product4:hover,
+.product5:hover,
+.product6:hover,
+.product7:hover,
+.product8:hover,
+.product9:hover,
+.product10:hover,
+.product11:hover,
+.product12:hover,
+.product13:hover,
+.product14:hover,
+.product15:hover,
+.product16:hover,
+.product17:hover,
+.product18:hover,
+.product19:hover,
+.product20:hover,
+.product21:hover,
+.product22:hover,
+.product23:hover,
+.product24:hover,
+.product25:hover,
+.Laptop:hover,
+.product26:hover,
+.product27:hover,
+.product28:hover,
+.product29:hover,
+.product30:hover,
+.product31:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+
+.product1 img,
+.product2 img,
+.product3 img,
+.product4 img,
+.product5 img,
+.product6 img,
+.product7 img,
+.product8 img,
+.product9 img,
+.product10 img,
+.product11 img,
+.product12 img,
+.product13 img,
+.product14 img,
+.product15 img,
+.product16 img,
+.product17 img,
+.product18 img,
+.product19 img,
+.product20 img,
+.product21 img,
+.product22 img,
+.product23 img,
+.product24 img,
+.product25 img,
+.Laptop img,
+.product26 img,
+.product27 img,
+.product28 img,
+.product29 img,
+.product30 img,
+.product31 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: 0.4s ease;
+}
+
+/* Image zoom */
+
+.product1:hover img,
+.product2:hover img,
+.product3:hover img,
+.product4:hover img,
+.product5:hover img,
+.product6:hover img,
+.product7:hover img,
+.product8:hover img,
+.product9:hover img,
+.product10:hover img,
+.product11:hover img,
+.product12:hover img,
+.product13:hover img,
+.product14:hover img,
+.product15:hover img,
+.product16:hover img,
+.product17:hover img,
+.product18:hover img,
+.product19:hover img,
+.product20:hover img,
+.product21:hover img,
+.product22:hover img,
+.product23:hover img,
+.product24:hover img,
+.product25:hover img,
+.Laptop:hover img,
+.product26:hover img,
+.product27:hover img,
+.product28:hover img,
+.product29:hover img,
+.product30:hover img,
+.product31:hover img {
+    transform: scale(1.05);
+}
+
+
+.product1 p,
+.product2 p,
+.product3 p,
+.product4 p,
+.product5 p,
+.product6 p,
+.product7 p,
+.product8 p,
+.product9 p,
+.product10 p,
+.product11 p,
+.product12 p,
+.product13 p,
+.product14 p,
+.product15 p,
+.product16 p,
+.product17 p,
+.product18 p,
+.product19 p,
+.product20 p,
+.product21 p,
+.product22 p,
+.product23 p,
+.product24 p,
+.product25 p,
+.Laptop p,
+.product26 p,
+.product27 p,
+.product28 p,
+.product29 p,
+.product30 p,
+.product31 p {
+    margin: 8px 15px;
+    color: #475569;
+    font-size: 15px;
+}
+
+/* Price styling */
+
+.product1 p:nth-of-type(2),
+.product2 p:nth-of-type(2),
+.product3 p:nth-of-type(2),
+.product4 p:nth-of-type(2),
+.product5 p:nth-of-type(2),
+.product6 p:nth-of-type(2),
+.product7 p:nth-of-type(2),
+.product8 p:nth-of-type(2),
+.product9 p:nth-of-type(2),
+.product10 p:nth-of-type(2),
+.product11 p:nth-of-type(2),
+.product12 p:nth-of-type(2),
+.product13 p:nth-of-type(2),
+.product14 p:nth-of-type(2),
+.product15 p:nth-of-type(2),
+.product16 p:nth-of-type(2),
+.product17 p:nth-of-type(2),
+.product18 p:nth-of-type(2),
+.product19 p:nth-of-type(2),
+.product20 p:nth-of-type(2),
+.product21 p:nth-of-type(2),
+.product22 p:nth-of-type(2),
+.product23 p:nth-of-type(2),
+.product24 p:nth-of-type(2),
+.product25 p:nth-of-type(2),
+.Laptop p:nth-of-type(2),
+.product26 p:nth-of-type(2),
+.product27 p:nth-of-type(2),
+.product28 p:nth-of-type(2),
+.product29 p:nth-of-type(2),
+.product30 p:nth-of-type(2),
+.product31 p:nth-of-type(2) {
+    color: #dc2626;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.product1 button,
+.product2 button,
+.product3 button,
+.product4 button,
+.product5 button,
+.product6 button,
+.product7 button,
+.product8 button,
+.product9 button,
+.product10 button,
+.product11 button,
+.product12 button,
+.product13 button,
+.product14 button,
+.product15 button,
+.product16 button,
+.product17 button,
+.product18 button,
+.product19 button,
+.product20 button,
+.product21 button,
+.product22 button,
+.product23 button,
+.product24 button,
+.product25 button,
+.Laptop button,
+.product26 button,
+.product27 button,
+.product28 button,
+.product29 button,
+.product30 button,
+.product31 button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 11px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+
+.product1 button:hover,
+.product2 button:hover,
+.product3 button:hover,
+.product4 button:hover,
+.product5 button:hover,
+.product6 button:hover,
+.product7 button:hover,
+.product8 button:hover,
+.product9 button:hover,
+.product10 button:hover,
+.product11 button:hover,
+.product12 button:hover,
+.product13 button:hover,
+.product14 button:hover,
+.product15 button:hover,
+.product16 button:hover,
+.product17 button:hover,
+.product18 button:hover,
+.product19 button:hover,
+.product20 button:hover,
+.product21 button:hover,
+.product22 button:hover,
+.product23 button:hover,
+.product24 button:hover,
+.product25 button:hover,
+.Laptop button:hover,
+.product26 button:hover,
+.product27 button:hover,
+.product28 button:hover,
+.product29 button:hover,
+.product30 button:hover,
+.product31 button:hover {
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
+
+.money {
+    background: linear-gradient(135deg, #1e3a8a, #0f172a);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+    margin-top: 40px;
+}
+
+.money h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.money p {
+    color: #dbeafe;
+    font-size: 16px;
+}
+
+
+.Form {
+    max-width: 500px;
+    margin: 40px auto 20px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Form p {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.Form input {
+    width: 100%;
+    padding: 13px 15px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+.Form input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.sign {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sign p {
+    margin: 8px;
+    color: #64748b;
+}
+
+.sign a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sign a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.text p {
+    margin-bottom: 15px;
+    color: #475569;
+}
+
+.text textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    resize: vertical;
+    outline: none;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.text textarea:focus {
+    border-color: #2563eb;
+}
+
+.text button {
+    margin-top: 15px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background: #16a34a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.text button:hover {
+    background: #15803d;
+    transform: translateY(-2px);
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    margin-top: 50px;
+    padding: 45px 20px;
+}
+
+.Customer {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.Customer h3 {
+    color: #f59e0b;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.Customer p {
+    color: #cbd5e1;
+    margin: 7px 0;
+}
+
+.Customer a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Customer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 1000px) {
+
+    .homy,
+    .dressing,
+    section[Electronics1],
+    .commodity {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sun {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .log {
+        padding: 20px 4%;
+    }
+
+    .sun {
+        font-size: 27px;
+    }
+
+    .par {
+        font-size: 14px;
+    }
+
+    .search {
+        width: 95%;
+    }
+
+    .search input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .search button {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    .home ul {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .home a {
+        width: 200px;
+        text-align: center;
+    }
+
+    .homy,
+    .dressing,
+    section[Electronics1],
+    .commodity {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .product1 img,
+    .product2 img,
+    .product3 img,
+    .product4 img,
+    .product5 img,
+    .product6 img,
+    .product7 img,
+    .product8 img,
+    .product9 img,
+    .product10 img,
+    .product11 img,
+    .product12 img,
+    .product13 img,
+    .product14 img,
+    .product15 img,
+    .product16 img,
+    .product17 img,
+    .product18 img,
+    .product19 img,
+    .product20 img,
+    .product21 img,
+    .product22 img,
+    .product23 img,
+    .product24 img,
+    .product25 img,
+    .Laptop img,
+    .product26 img,
+    .product27 img,
+    .product28 img,
+    .product29 img,
+    .product30 img,
+    .product31 img {
+        height: 170px;
+    }
+
+    .money h2 {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .homy,
+    .dressing,
+    section[Electronics1],
+    .commodity {
+        grid-template-columns: 1fr;
+    }
+
+    .sun {
+        font-size: 24px;
+    }
+
+    .search {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .search input,
+    .search button {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .choice,
+    .Form,
+    .text {
+        width: 92%;
+    }
+
+    .rate h4,
+    .Electionics h4 {
+        font-size: 22px;
+    }
+}
